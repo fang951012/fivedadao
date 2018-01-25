@@ -1,0 +1,95 @@
+/* CSS Document */
+* { padding:0; margin:0;}
+
+body { font-size:12px; font-family:"宋体";}
+
+ul { list-style-type:none;}
+
+a { color:#666; text-decoration:none;}
+
+a:hover { color:#000; text-decoration:underline;}
+
+img { border:none;}
+
+h1 { font-size:12px;}
+
+.a1 { width:100%;}
+
+.a2 { height:60px;}
+.a2 img{float:left;}
+
+.a4 { float:right; padding-top: 23px; padding-right: 15px; }
+   
+.a4 span { 
+	display: inline-block;
+    width: 8px;
+    height: 15px; background:url(../images/16.png) no-repeat -160px -384px;}
+
+.a4 span.next {     margin-left: 20px;background:url(../images/16.png) no-repeat -180px -384px;display: inline-block;
+    width: 8px;
+    height: 15px; }
+
+.a2 em { float:right; margin:10px 12px 0 0;}
+
+.a5 { width:1200px; height:180px; overflow:hidden; position:relative;  border-top:none;}
+
+.a5 ul li { float:left;}
+
+.a6 { width:4000px; position:absolute; top:0; left;0;}
+.a6 ul li{margin-right:4.5px;}
+.a6 ul li a{    position: relative;
+    float: left;
+    width: 107px;
+    height: 55px;
+    padding: 14px 29px;
+    border: 1px solid #dfdfdf;
+    transition:all 1s;
+    margin-bottom: 7px;}
+.a6 ul li a img{
+	width: 107px;
+    height: 54px;
+}
+.a6 ul li a:hover .a6-1{
+	opacity: 1;
+	color:#b28247;
+	transform:.5s;
+	transition: 1s;
+}
+.a6 ul li a:hover{
+	border:1px solid #b28247;
+}
+.a6-1{
+	position: absolute;
+    left: 29px;
+    top: 14px;
+    opacity: 0;
+    width: 107px;
+    height: 42px;
+    padding-top: 12px;
+    background: #fff;
+}
+.a6-1 .a6-1-0{
+	color: inherit;
+}
+.a6-1 .a6-1-0 p{
+	font-size: 18px;
+    text-align: center;
+}
+.a6-1-0 .a6-1-1{
+	text-align: center;
+    margin-top: 5px;
+}
+.a6-1-0 .a6-1-1 span{
+	    display: inline-block;
+    width: 20px;
+    height: 2px;
+    background: #000;
+}
+.a6 h1 { padding:5px 0 5px 0; }
+
+.a6 h1 a { color:#aaa; }
+
+
+
+
+
